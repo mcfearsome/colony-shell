@@ -3,8 +3,8 @@
 
 set -e
 
-INIT_PROMPT="/Users/mcfearsome/src/github.com/mcfearsome/colony-shell/docs/COLONY_TERMINAL_INIT.md"
-TARGET_DIR="$HOME/src/github.com/mcfearsome"
+INIT_PROMPT="/Users/mcfearsome/Code/github.com/mcfearsome/colony-shell/docs/COLONY_TERMINAL_INIT.md"
+TARGET_DIR="$HOME/Code/github.com/mcfearsome"
 PROJECT_NAME="colony-terminal"
 
 # Verify init prompt exists

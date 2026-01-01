@@ -151,7 +151,7 @@ version = "1.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "40c48f72fd53cd289104fc64099abca73db4166ad86ea0b4341abe65af83dadc"
 dependencies = [
- "windows-sys 0.61.2",
+ "windows-sys 0.60.2",
 ]
 
 [[package]]
@@ -162,7 +162,7 @@ checksum = "291e6a250ff86cd4a820112fb8898808a366d8f9f58ce16d1f538353ad55747d"
 dependencies = [
  "anstyle",
  "once_cell_polyfill",
- "windows-sys 0.61.2",
+ "windows-sys 0.60.2",
 ]
 
 [[package]]
@@ -1416,7 +1416,7 @@ dependencies = [
 
 [[package]]
 name = "colony-agent"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "async-trait",
  "claude-sdk",
@@ -1436,7 +1436,7 @@ dependencies = [
 
 [[package]]
 name = "colony-channels"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "chrono",
  "parking_lot",
@@ -1447,7 +1447,7 @@ dependencies = [
 
 [[package]]
 name = "colony-config"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "chrono",
  "dirs 5.0.1",
@@ -1461,7 +1461,7 @@ dependencies = [
 
 [[package]]
 name = "colony-exec"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "chrono",
  "colony-channels",
@@ -1481,7 +1481,7 @@ dependencies = [
 
 [[package]]
 name = "colony-expand"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "colony-parser",
  "colony-protocol",
@@ -1500,7 +1500,7 @@ dependencies = [
 
 [[package]]
 name = "colony-focus"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "colony-memory",
  "serde",
@@ -1508,7 +1508,7 @@ dependencies = [
 
 [[package]]
 name = "colony-mcp"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "colony-tuple",
  "serde",
@@ -1517,7 +1517,7 @@ dependencies = [
 
 [[package]]
 name = "colony-memory"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "arrow-array",
  "arrow-schema",
@@ -1537,7 +1537,7 @@ dependencies = [
 
 [[package]]
 name = "colony-parser"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "miette",
  "pest",
@@ -1549,7 +1549,7 @@ dependencies = [
 
 [[package]]
 name = "colony-protocol"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "serde",
  "serde_json",
@@ -1557,7 +1557,7 @@ dependencies = [
 
 [[package]]
 name = "colony-secure"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "aes-gcm",
  "base64 0.22.1",
@@ -1581,7 +1581,7 @@ dependencies = [
 
 [[package]]
 name = "colony-shell"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "clap",
  "colony-agent",
@@ -1593,6 +1593,7 @@ dependencies = [
  "colony-tree-sitter",
  "colony-tuple",
  "crossterm",
+ "dirs 5.0.1",
  "futures",
  "libc",
  "miette",
@@ -1620,7 +1621,7 @@ dependencies = [
 
 [[package]]
 name = "colony-tuple"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "ipc-channel",
  "parking_lot",
@@ -2542,7 +2543,7 @@ dependencies = [
  "libc",
  "option-ext",
  "redox_users 0.5.2",
- "windows-sys 0.61.2",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -2634,7 +2635,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "39cab71617ae0d63f51a36d69f866391735b51691dbda63cf6f96d042b63efeb"
 dependencies = [
  "libc",
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -3241,11 +3242,11 @@ dependencies = [
 
 [[package]]
 name = "home"
-version = "0.5.12"
+version = "0.5.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cc627f471c528ff0c4a49e1d5e60450c8f6461dd6d10ba9dcd3a61d3dff7728d"
+checksum = "e3d1354bf6b7235cb4a0576c2619fd4ed18183f689b12b006a0ee7329eeff9a5"
 dependencies = [
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -4785,7 +4786,7 @@ version = "0.50.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7957b9740744892f114936ab4a57b3f487491bbeafaf8083688b16841a4240e5"
 dependencies = [
- "windows-sys 0.61.2",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -6018,7 +6019,7 @@ dependencies = [
  "errno",
  "libc",
  "linux-raw-sys 0.11.0",
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -6881,7 +6882,7 @@ dependencies = [
  "getrandom 0.3.4",
  "once_cell",
  "rustix 1.1.2",
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -7730,7 +7731,7 @@ version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c2a7b1c03c876122aa43f3020e6c3c3ee5c05081c9a00739faf7503aeba10d22"
 dependencies = [
- "windows-sys 0.61.2",
+ "windows-sys 0.48.0",
 ]
 
 [[package]]
